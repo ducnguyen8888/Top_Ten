@@ -5,6 +5,8 @@
   Time: 2:41 PM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ page import="act.app.topten.*, java.util.*"
+%>
 <%!
     boolean isDefined( String val ) {
         return ( val != null && val.length() >0);

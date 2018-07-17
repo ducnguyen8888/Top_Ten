@@ -5,7 +5,7 @@
   Time: 3:19 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page import="act.app.topten.*"
+<%@ include file="configuration.jsp"
 %><jsp:useBean id="topTenUser" class="act.app.topten.TopTenUser" scope="session"
 /><%@ page contentType="text/html;charset=UTF-8" language="java"
 %><%
